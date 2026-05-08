@@ -1,0 +1,352 @@
+[
+  {
+    "ContainingType": "ExamApi.Controllers.ApprovalController",
+    "Method": "Approve",
+    "RelativePath": "api/approval/approve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestSaveApproval",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.ApprovalController",
+    "Method": "ListApproval",
+    "RelativePath": "api/approval/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestListApproval",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.ApprovalController",
+    "Method": "Reject",
+    "RelativePath": "api/approval/reject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestSaveApproval",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestRegister",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/product/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestDeleteProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.ProductController",
+    "Method": "ListProductBarcode",
+    "RelativePath": "api/product/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestListProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.ProductController",
+    "Method": "Save",
+    "RelativePath": "api/product/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestCreateProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.ProductQrController",
+    "Method": "Delete",
+    "RelativePath": "api/productqr/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestDeleteProductQr",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.ProductQrController",
+    "Method": "ListProductQr",
+    "RelativePath": "api/productqr/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestListProductQr",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.ProductQrController",
+    "Method": "Save",
+    "RelativePath": "api/productqr/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestCreateProductQr",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.ProfileController",
+    "Method": "Save",
+    "RelativePath": "api/profile/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestCreateProfile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.QuestionResultController",
+    "Method": "ListQuestionResult",
+    "RelativePath": "api/question-result/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestListQuestionResult",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.QuestionResultController",
+    "Method": "Save",
+    "RelativePath": "api/question-result/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestSubmit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.QuestionController",
+    "Method": "Delete",
+    "RelativePath": "api/question/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestDeleteQuestion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.QuestionController",
+    "Method": "ListQuestion",
+    "RelativePath": "api/question/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestListQuestion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.QuestionController",
+    "Method": "Save",
+    "RelativePath": "api/question/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestCreateQuestion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.QueueController",
+    "Method": "CheckQueue",
+    "RelativePath": "api/queue/check-queue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.QueueController",
+    "Method": "GetNextQueue",
+    "RelativePath": "api/queue/next",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.QueueController",
+    "Method": "ResetQueue",
+    "RelativePath": "api/queue/reset",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.TextController",
+    "Method": "GetText",
+    "RelativePath": "api/text/get",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestText",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.Test1Controller",
+    "Method": "ListUser",
+    "RelativePath": "api/user/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestListUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExamApi.Controllers.Test1Controller",
+    "Method": "Save",
+    "RelativePath": "api/user/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ExamApi.Models.RequestCreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
